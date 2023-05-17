@@ -1,0 +1,121 @@
+<div id="preloader"></div>
+
+  <section id="hero7">
+    <div class="hero7-container">
+      <div class="wow fadeIn">
+        <div class="hero7-logo">
+        </div>
+
+        <h1>Bienvenidos a AroundWorld Travel</h1>
+        <h2>Ventas de <span class="rotating">Paquetes Turisticos, Mejores Hoteles, Mejores servicios</span></h2>
+        <div class="actions">
+          <a href="/app/" class="btn-get-started">Inicio</a>
+          <a href="/app/servicios" class="btn-services">Nuestros Servicios</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--==========================
+  Sección de encabezado
+  ============================-->
+  <header id="header">
+    <div class="container">
+      <div id="logo" class="pull-left">
+        <a href="/app/"><img src="/public/img/Captura_de_pantalla_2022-10-08_174530-removebg-preview.png" alt="" title="" /></img></a>        <!-- Descomenta abajo si prefieres usar una imagen de texto -->
+        <!-- Descomenta abajo si prefieres usar una imagen de texto -->
+        <!--<h1><a href="#hero">Encabezado 1</a></h1>-->
+      </div>
+
+      <nav id="nav-menu-container">
+            <ul class="nav-menu">
+            <li class="menu-has-children"><a href="/app/">Destinos</a>
+                <ul>
+                <li><a>Luxemburgo</a></li>
+                <li><a>Honduras</a></li>
+                <li><a>Alemania</a></li>
+                <li><a>Suiza</a></li>
+                <li><a>Canada</a></li>
+                </ul>
+            </li>
+            <li class="menu-has-children"><a>Quienes somos</a>
+                <ul>
+                <li><a href="/app/sobre/">Acerca de nosotros</a></li>
+                <li><a href="/app/servicios/">Servicios</a></li>
+                <li><a href="/app/testimonial/">Reseñas</a></li>
+                <li><a href="/app/team/">Equipo</a></li>
+                </ul>
+            </li>
+            <li><a href="/app/reserva/">Reservacion</a></li>
+            <li class="menu-active"><a href="/app/contact/">Contactenos</a></li>
+            <li><a href="/app/entre/">Iniciar Sesion</a></li>
+            </ul>
+        </nav>
+      <!-- #nav-menu-container -->
+    </div>
+  </header>
+  <!-- #header -->
+
+  <!--==========================
+  Contact Section
+  ============================-->
+  <section id="contact">
+    <div class="container wow fadeInUp">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="section-title">Contactanos</h3>
+          <div class="section-title-divider"></div>
+          <p class="section-description">ponte en contacto si tienes algunas duda de nuestros productos</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3 col-md-push-2">
+          <div class="info">
+            <div>
+              <i class="fa fa-map-marker"></i>
+              <p>Cortes, Honduras<br>San Pedro Sula, <br> Col. Lomas del Carmen</p>
+            </div>
+
+            <div>
+              <i class="fa fa-envelope"></i>
+              <p>aroundworld@gmail.com</p>
+            </div>
+
+            <div>
+              <i class="fa fa-phone"></i>
+              <p>+504 9865-7859</p>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-md-5 col-md-push-2">
+          <div class="form">
+            <div id="sendmessage">Your message has been sent. Thank you!</div>
+            <div id="errormessage"></div>
+            <form action="/app/contact/guardar/" role="form" class="contactForm">
+              <div class="form-group">
+                <input  type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Por favor ingrese al menos 4 caracteres" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Ingresa un Correo Valido" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Por favor ingrese al menos 8 caracteres del tema" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" id="message" rows="5" data-rule="required" data-msg="Por favor escribe algo para nosotros" placeholder="Message"></textarea>
+                <div class="validation"></div>
+              </div>
+              <div class="text-center"><button type="submit">Enviar mensaje</button></div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
